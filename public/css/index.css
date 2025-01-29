@@ -2,4 +2,23 @@
     font-family: "ABeeZee", serif;
     font-weight: 400;
     font-style: normal;
+    height: 100vh; background-color: #333; color: #fff
+}
+
+#mainTitle {
+    font-size: 3vw;
+}
+
+#arrowNext {
+    opacity: 70%;
+    background: #444;
+    padding: .7em;
+}
+#arrowNext:hover {
+    opacity: 1;
+    cursor:pointer;
+}
+
+#container1{
+    height: 100vh;
 }
