@@ -6,19 +6,34 @@
 }
 
 #mainTitle {
-    font-size: 3vw;
+    font-size: 4vw;
+    font-weight: bold;
 }
 
-#arrowNext {
+.arrowNext {
     opacity: 70%;
     background: #444;
     padding: .7em;
 }
-#arrowNext:hover {
+.arrowNext:hover {
     opacity: 1;
     cursor:pointer;
 }
 
 #container1{
     height: 100vh;
+}
+
+#container2{
+    height: 100vh;
+}
+
+#container3{
+    height: 100vh;
+}
+
+.pageTitle{
+    font-size: 3vw;
+    padding-top: .7em;
+    font-weight: bold;
 }
