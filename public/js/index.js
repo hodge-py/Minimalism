@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+    $("#container1").fadeIn("slow").css("display","flex")
+
     var storeFile = 1
 
     $(".arrowNext").click(function(event){
@@ -11,7 +14,9 @@ $(document).ready(function(){
         }
         else if($(this).text() == "Home"){
             $(`#container${storeFile}`).fadeOut("slow", function () {
-                $("#container1").fadeIn("slow");
+                $("#container1").fadeIn("slow", function () {
+
+                });
                 storeFile = 1
             });
         }
